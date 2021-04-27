@@ -1,0 +1,286 @@
+{
+    "group": {
+        "desc": "Enter service.",
+        "label": "Enter Service",
+        "name": "DEREnterService",
+        "notes": "",
+        "points": [
+            {
+                "desc": "Enter service model ID.",
+                "label": "Enter Service ID",
+                "mandatory": "M",
+                "name": "ID",
+                "notes": "",
+                "static": "S",
+                "type": "uint16",
+                "value": 703,
+                "rbac": {
+                    "der_owner": "",
+                    "installer": "R",
+                    "der_vendor_or_service_provider": "R",
+                    "3rd_party_or_aggregator": "RW",
+                    "utility_or_dso": "RW",
+                    "iso_rto_tso": "R",
+                    "security_administrator": "",
+                    "security_auditor": "",
+                    "rbac_administrator": ""
+                }
+            },
+            {
+                "desc": "Enter service  model length.",
+                "label": "Enter Service Length",
+                "mandatory": "M",
+                "name": "L",
+                "notes": "",
+                "static": "S",
+                "type": "uint16",
+                "value": 17,
+                "rbac": {
+                    "der_owner": "",
+                    "installer": "R",
+                    "der_vendor_or_service_provider": "R",
+                    "3rd_party_or_aggregator": "RW",
+                    "utility_or_dso": "RW",
+                    "iso_rto_tso": "R",
+                    "security_administrator": "",
+                    "security_auditor": "",
+                    "rbac_administrator": ""
+                }
+            },
+            {
+                "access": "RW",
+                "desc": "Permit enter service.",
+                "label": "Permit Enter Service",
+                "name": "ES",
+                "notes": "",
+                "symbols": [
+                    {
+                        "name": "DISABLED",
+                        "notes": "",
+                        "value": 0
+                    },
+                    {
+                        "name": "ENABLED",
+                        "notes": "",
+                        "value": 1
+                    }
+                ],
+                "type": "enum16",
+                "rbac": {
+                    "der_owner": "R",
+                    "installer": "RW",
+                    "der_vendor_or_service_provider": "R",
+                    "3rd_party_or_aggregator": "R",
+                    "utility_or_dso": "RW",
+                    "iso_rto_tso": "RW",
+                    "security_administrator": "",
+                    "security_auditor": "",
+                    "rbac_administrator": ""
+                }
+            },
+            {
+                "access": "RW",
+                "desc": "Enter service voltage high threshold as percent of normal voltage.",
+                "label": "Enter Service Voltage High",
+                "name": "ESVHi",
+                "notes": "",
+                "sf": "V_SF",
+                "type": "uint16",
+                "units": "Pct",
+                "rbac": {
+                    "der_owner": "",
+                    "installer": "R",
+                    "der_vendor_or_service_provider": "R",
+                    "3rd_party_or_aggregator": "RW",
+                    "utility_or_dso": "RW",
+                    "iso_rto_tso": "R",
+                    "security_administrator": "",
+                    "security_auditor": "",
+                    "rbac_administrator": ""
+                }
+            },
+            {
+                "access": "RW",
+                "desc": "Enter service voltage low threshold as percent of normal voltage.",
+                "label": "Enter Service Voltage Low",
+                "name": "ESVLo",
+                "notes": "",
+                "sf": "V_SF",
+                "type": "uint16",
+                "units": "Pct",
+                "rbac": {
+                    "der_owner": "",
+                    "installer": "R",
+                    "der_vendor_or_service_provider": "R",
+                    "3rd_party_or_aggregator": "RW",
+                    "utility_or_dso": "RW",
+                    "iso_rto_tso": "R",
+                    "security_administrator": "",
+                    "security_auditor": "",
+                    "rbac_administrator": ""
+                }
+            },
+            {
+                "access": "RW",
+                "desc": "Enter service frequency high threshold.",
+                "label": "Enter Service Frequency High",
+                "name": "ESHzHi",
+                "notes": "",
+                "sf": "Hz_SF",
+                "type": "uint32",
+                "units": "Hz",
+                "rbac": {
+                    "der_owner": "",
+                    "installer": "R",
+                    "der_vendor_or_service_provider": "R",
+                    "3rd_party_or_aggregator": "RW",
+                    "utility_or_dso": "RW",
+                    "iso_rto_tso": "R",
+                    "security_administrator": "",
+                    "security_auditor": "",
+                    "rbac_administrator": ""
+                }
+            },
+            {
+                "access": "RW",
+                "desc": "Enter service frequency low threshold.",
+                "label": "Enter Service Frequency Low",
+                "name": "ESHzLo",
+                "notes": "",
+                "sf": "Hz_SF",
+                "type": "uint32",
+                "units": "Hz",
+                "rbac": {
+                    "der_owner": "",
+                    "installer": "R",
+                    "der_vendor_or_service_provider": "R",
+                    "3rd_party_or_aggregator": "RW",
+                    "utility_or_dso": "RW",
+                    "iso_rto_tso": "R",
+                    "security_administrator": "",
+                    "security_auditor": "",
+                    "rbac_administrator": ""
+                }
+            },
+            {
+                "access": "RW",
+                "desc": "Enter service delay time in seconds.",
+                "label": "Enter Service Delay Time",
+                "name": "ESDlyTms",
+                "notes": "",
+                "type": "uint32",
+                "units": "Secs",
+                "rbac": {
+                    "der_owner": "",
+                    "installer": "R",
+                    "der_vendor_or_service_provider": "R",
+                    "3rd_party_or_aggregator": "RW",
+                    "utility_or_dso": "RW",
+                    "iso_rto_tso": "R",
+                    "security_administrator": "",
+                    "security_auditor": "",
+                    "rbac_administrator": ""
+                }
+            },
+            {
+                "access": "RW",
+                "desc": "Enter service random delay in seconds.",
+                "label": "Enter Service Random Delay",
+                "name": "ESRndTms",
+                "notes": "",
+                "type": "uint32",
+                "units": "Secs",
+                "rbac": {
+                    "der_owner": "",
+                    "installer": "R",
+                    "der_vendor_or_service_provider": "R",
+                    "3rd_party_or_aggregator": "RW",
+                    "utility_or_dso": "RW",
+                    "iso_rto_tso": "R",
+                    "security_administrator": "",
+                    "security_auditor": "",
+                    "rbac_administrator": ""
+                }
+            },
+            {
+                "access": "RW",
+                "desc": "Enter service ramp time in seconds.",
+                "label": "Enter Service Ramp Time",
+                "name": "ESRmpTms",
+                "notes": "",
+                "type": "uint32",
+                "units": "Secs",
+                "rbac": {
+                    "der_owner": "",
+                    "installer": "R",
+                    "der_vendor_or_service_provider": "R",
+                    "3rd_party_or_aggregator": "RW",
+                    "utility_or_dso": "RW",
+                    "iso_rto_tso": "R",
+                    "security_administrator": "",
+                    "security_auditor": "",
+                    "rbac_administrator": ""
+                }
+            },
+            {
+                "desc": "Enter service delay time remaining in seconds.",
+                "label": "Enter Service Delay Remaining",
+                "name": "ESDlyRemTms",
+                "notes": "",
+                "type": "uint32",
+                "units": "Secs",
+                "rbac": {
+                    "der_owner": "",
+                    "installer": "R",
+                    "der_vendor_or_service_provider": "R",
+                    "3rd_party_or_aggregator": "RW",
+                    "utility_or_dso": "RW",
+                    "iso_rto_tso": "R",
+                    "security_administrator": "",
+                    "security_auditor": "",
+                    "rbac_administrator": ""
+                }
+            },
+            {
+                "desc": "Voltage percentage scale factor.",
+                "label": "Voltage Scale Factor",
+                "name": "V_SF",
+                "notes": "",
+                "static": "S",
+                "type": "sunssf",
+                "rbac": {
+                    "der_owner": "R",
+                    "installer": "R",
+                    "der_vendor_or_service_provider": "R",
+                    "3rd_party_or_aggregator": "R",
+                    "utility_or_dso": "R",
+                    "iso_rto_tso": "R",
+                    "security_administrator": "R",
+                    "security_auditor": "R",
+                    "rbac_administrator": "R"
+                }
+            },
+            {
+                "desc": "Frequency scale factor.",
+                "label": "Frequency Scale Factor",
+                "name": "Hz_SF",
+                "notes": "",
+                "static": "S",
+                "type": "sunssf",
+                "rbac": {
+                    "der_owner": "R",
+                    "installer": "R",
+                    "der_vendor_or_service_provider": "R",
+                    "3rd_party_or_aggregator": "R",
+                    "utility_or_dso": "R",
+                    "iso_rto_tso": "R",
+                    "security_administrator": "R",
+                    "security_auditor": "R",
+                    "rbac_administrator": "R"
+                }
+            }
+        ],
+        "type": "group"
+    },
+    "id": 703
+}

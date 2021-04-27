@@ -1,0 +1,183 @@
+{
+    "group": {
+        "desc": "All SunSpec compliant devices must include this as the first model",
+        "label": "Common",
+        "name": "common",
+        "points": [
+            {
+                "desc": "Model identifier",
+                "label": "Model ID",
+                "mandatory": "M",
+                "name": "ID",
+                "static": "S",
+                "type": "uint16",
+                "value": 1,
+                "rbac": {
+                    "der_owner": "R",
+                    "installer": "R",
+                    "der_vendor_or_service_provider": "R",
+                    "3rd_party_or_aggregator": "R",
+                    "utility_or_dso": "R",
+                    "iso_rto_tso": "R",
+                    "security_administrator": "",
+                    "security_auditor": "",
+                    "rbac_administrator": ""
+                }
+            },
+            {
+                "desc": "Model length",
+                "label": "Model Length",
+                "mandatory": "M",
+                "name": "L",
+                "static": "S",
+                "type": "uint16",
+                "rbac": {
+                    "der_owner": "R",
+                    "installer": "R",
+                    "der_vendor_or_service_provider": "R",
+                    "3rd_party_or_aggregator": "R",
+                    "utility_or_dso": "R",
+                    "iso_rto_tso": "R",
+                    "security_administrator": "",
+                    "security_auditor": "",
+                    "rbac_administrator": ""
+                }
+            },
+            {
+                "desc": "Well known value registered with SunSpec for compliance",
+                "label": "Manufacturer",
+                "mandatory": "M",
+                "name": "Mn",
+                "size": 16,
+                "static": "S",
+                "type": "string",
+                "rbac": {
+                    "der_owner": "R",
+                    "installer": "R",
+                    "der_vendor_or_service_provider": "R",
+                    "3rd_party_or_aggregator": "R",
+                    "utility_or_dso": "R",
+                    "iso_rto_tso": "R",
+                    "security_administrator": "",
+                    "security_auditor": "",
+                    "rbac_administrator": ""
+                }
+            },
+            {
+                "desc": "Manufacturer specific value (32 chars)",
+                "label": "Model",
+                "mandatory": "M",
+                "name": "Md",
+                "size": 16,
+                "static": "S",
+                "type": "string",
+                "rbac": {
+                    "der_owner": "R",
+                    "installer": "R",
+                    "der_vendor_or_service_provider": "R",
+                    "3rd_party_or_aggregator": "R",
+                    "utility_or_dso": "R",
+                    "iso_rto_tso": "R",
+                    "security_administrator": "",
+                    "security_auditor": "",
+                    "rbac_administrator": ""
+                }
+            },
+            {
+                "desc": "Manufacturer specific value (16 chars)",
+                "label": "Options",
+                "name": "Opt",
+                "size": 8,
+                "static": "S",
+                "type": "string",
+                "rbac": {
+                    "der_owner": "R",
+                    "installer": "R",
+                    "der_vendor_or_service_provider": "R",
+                    "3rd_party_or_aggregator": "R",
+                    "utility_or_dso": "R",
+                    "iso_rto_tso": "R",
+                    "security_administrator": "",
+                    "security_auditor": "",
+                    "rbac_administrator": ""
+                }
+            },
+            {
+                "desc": "Manufacturer specific value (16 chars)",
+                "label": "Version",
+                "name": "Vr",
+                "size": 8,
+                "static": "S",
+                "type": "string",
+                "rbac": {
+                    "der_owner": "R",
+                    "installer": "R",
+                    "der_vendor_or_service_provider": "R",
+                    "3rd_party_or_aggregator": "R",
+                    "utility_or_dso": "R",
+                    "iso_rto_tso": "R",
+                    "security_administrator": "",
+                    "security_auditor": "",
+                    "rbac_administrator": ""
+                }
+            },
+            {
+                "desc": "Manufacturer specific value (32 chars)",
+                "label": "Serial Number",
+                "mandatory": "M",
+                "name": "SN",
+                "size": 16,
+                "static": "S",
+                "type": "string",
+                "rbac": {
+                    "der_owner": "R",
+                    "installer": "R",
+                    "der_vendor_or_service_provider": "R",
+                    "3rd_party_or_aggregator": "R",
+                    "utility_or_dso": "R",
+                    "iso_rto_tso": "R",
+                    "security_administrator": "",
+                    "security_auditor": "",
+                    "rbac_administrator": ""
+                }
+            },
+            {
+                "access": "RW",
+                "desc": "Modbus device address",
+                "label": "Device Address",
+                "name": "DA",
+                "type": "uint16",
+                "rbac": {
+                    "der_owner": "R",
+                    "installer": "R",
+                    "der_vendor_or_service_provider": "R",
+                    "3rd_party_or_aggregator": "R",
+                    "utility_or_dso": "R",
+                    "iso_rto_tso": "R",
+                    "security_administrator": "",
+                    "security_auditor": "",
+                    "rbac_administrator": ""
+                }
+            },
+            {
+                "desc": "Force even alignment",
+                "name": "Pad",
+                "static": "S",
+                "type": "pad",
+                "rbac": {
+                    "der_owner": "R",
+                    "installer": "R",
+                    "der_vendor_or_service_provider": "R",
+                    "3rd_party_or_aggregator": "R",
+                    "utility_or_dso": "R",
+                    "iso_rto_tso": "R",
+                    "security_administrator": "",
+                    "security_auditor": "",
+                    "rbac_administrator": ""
+                }
+            }
+        ],
+        "type": "group"
+    },
+    "id": 1
+}

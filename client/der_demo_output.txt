@@ -1,0 +1,2 @@
+[95m
+ **** Testing Permissions for role = der_owner[0m

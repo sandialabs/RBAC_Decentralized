@@ -1,0 +1,632 @@
+[95m
+ **** Testing Permissions for role = der_owner[0m
+
+ **** Read/Write permissions for role = der_owner
+--------------------------------------------------
+Model: common
+
+Model ID [ID]: 1 {Read Granted/Write Blocked}
+Model Length [L]: 66 {Read Granted/Write Blocked}
+Manufacturer [Mn]: SunSpecTest {Read Granted/Write Blocked}
+Model [Md]: Test-1547-1 {Read Granted/Write Blocked}
+Options [Opt]: opt_a_b_c {Read Granted/Write Blocked}
+Version [Vr]: 1.2.3 {Read Granted/Write Blocked}
+Serial Number [SN]: sn-123456789 {Read Granted/Write Blocked}
+Device Address [DA]: 1 {Read Granted/Write Blocked}
+--------------------------------------------------
+Model: DERMeasureAC
+
+DER AC Measure Model ID [ID]: 701 {Read Granted/Write Blocked}
+DER AC Measure Model Length [L]: 153 {Read Granted/Write Blocked}
+AC Wiring Type [ACType]: 3 [None] {Read Granted/Write Blocked}
+Operating State [St]: 2 [None] {Read Granted/Write Blocked}
+Inverter State [InvSt]: 4 [None] {Read Granted/Write Blocked}
+Grid Connection State [ConnSt]: 2 [None] {Read Granted/Write Blocked}
+Alarm Bitfield [Alrm]: 11397 [None] {Read Granted/Write Blocked}
+DER Operational Characteristics [DERMode]: None {Read Granted/Write Blocked}
+Active Power [W]: 9800 {Read Granted/Write Blocked}
+Apparent Power [VA]: 10000 {Read Granted/Write Blocked}
+Reactive Power [Var]: 200 {Read Granted/Write Blocked}
+Power Factor [PF]: 0.985 {Read Granted/Write Blocked}
+Total AC Current [A]: 41.1 {Read Granted/Write Blocked}
+Voltage LL [LLV]: 240.0 {Read Granted/Write Blocked}
+Voltage LN [LNV]: 240.0 {Read Granted/Write Blocked}
+Frequency [Hz]: 60.01 {Read Granted/Write Blocked}
+Total Energy Injected [TotWhInj]: 150000.0 {Read Granted/Write Blocked}
+Total Energy Absorbed [TotWhAbs]: 0.0 {Read Granted/Write Blocked}
+Total Reactive Energy Inj [TotVarhInj]: 9000.0 {Read Granted/Write Blocked}
+Total Reactive Energy Abs [TotVarhAbs]: 0.0 {Read Granted/Write Blocked}
+Ambient Temperature [TmpAmb]: 45.0 {Read Granted/Write Blocked}
+Cabinet Temperature [TmpCab]: 55.0 {Read Granted/Write Blocked}
+Heat Sink Temperature [TmpSnk]: 65.0 {Read Granted/Write Blocked}
+Transformer Temperature [TmpTrns]: 50.0 {Read Granted/Write Blocked}
+IGBT/MOSFET Temperature [TmpSw]: 40.0 {Read Granted/Write Blocked}
+Other Temperature [TmpOt]: 42.0 {Read Granted/Write Blocked}
+Watts L1 [WL1]: 3200 {Read Granted/Write Blocked}
+VA L1 [VAL1]: 3333 {Read Granted/Write Blocked}
+Var L1 [VarL1]: 80 {Read Granted/Write Blocked}
+PF L1 [PFL1]: 0.984 {Read Granted/Write Blocked}
+Amps L1 [AL1]: 13.700000000000001 {Read Granted/Write Blocked}
+Phase Voltage L1-L2 [VL1L2]: 208.0 {Read Granted/Write Blocked}
+Phase Voltage L1-N [VL1]: 120.0 {Read Granted/Write Blocked}
+Total Watt-Hours Inj L1 [TotWhInjL1]: 49000.0 {Read Granted/Write Blocked}
+Total Watt-Hours Abs L1 [TotWhAbsL1]: 0.0 {Read Granted/Write Blocked}
+Total Var-Hours Inj L1 [TotVarhInjL1]: 2000.0 {Read Granted/Write Blocked}
+Total Var-Hours Abs L1 [TotVarhAbsL1]: 0.0 {Read Granted/Write Blocked}
+Watts L2 [WL2]: 3300 {Read Granted/Write Blocked}
+VA L2 [VAL2]: 3333 {Read Granted/Write Blocked}
+Var L2 [VarL2]: 80 {Read Granted/Write Blocked}
+PF L2 [PFL2]: 0.986 {Read Granted/Write Blocked}
+Amps L2 [AL2]: 13.600000000000001 {Read Granted/Write Blocked}
+Phase Voltage L2-L3 [VL2L3]: 208.0 {Read Granted/Write Blocked}
+Phase Voltage L2-N [VL2]: 120.0 {Read Granted/Write Blocked}
+Total Watt-Hours Inj L2 [TotWhInjL2]: 50000.0 {Read Granted/Write Blocked}
+Total Watt-Hours Abs L2 [TotWhAbsL2]: 0.0 {Read Granted/Write Blocked}
+Total Var-Hours Inj L2 [TotVarhInjL2]: 3000.0 {Read Granted/Write Blocked}
+Total Var-Hours Abs L2 [TotVarhAbsL2]: 0.0 {Read Granted/Write Blocked}
+Watts L3 [WL3]: 3500 {Read Granted/Write Blocked}
+VA L3 [VAL3]: 3333 {Read Granted/Write Blocked}
+Var L3 [VarL3]: 40 {Read Granted/Write Blocked}
+PF L3 [PFL3]: 0.987 {Read Granted/Write Blocked}
+Amps L3 [AL3]: 13.8 {Read Granted/Write Blocked}
+Phase Voltage L3-L1 [VL3L1]: 208.0 {Read Granted/Write Blocked}
+Phase Voltage L3-N [VL3]: 120.0 {Read Granted/Write Blocked}
+Total Watt-Hours Inj L3 [TotWhInjL3]: 51000.0 {Read Granted/Write Blocked}
+Total Watt-Hours Abs L3 [TotWhAbsL3]: 0.0 {Read Granted/Write Blocked}
+Total Var-Hours Inj L3 [TotVarhInjL3]: 4000.0 {Read Granted/Write Blocked}
+Total Var-Hours Abs L3 [TotVarhAbsL3]: 0.0 {Read Granted/Write Blocked}
+Throttling In Pct [ThrotPct]: None {Read Granted/Write Blocked}
+Throttle Source Information [ThrotSrc]: None {Read Granted/Write Blocked}
+Current Scale Factor [A_SF]: -1 {Read Granted/Write Blocked}
+Voltage Scale Factor [V_SF]: -1 {Read Granted/Write Blocked}
+Frequency Scale Factor [Hz_SF]: -3 {Read Granted/Write Blocked}
+Active Power Scale Factor [W_SF]: 0 {Read Granted/Write Blocked}
+Power Factor Scale Factor [PF_SF]: -3 {Read Granted/Write Blocked}
+Apparent Power Scale Factor [VA_SF]: 0 {Read Granted/Write Blocked}
+Reactive Power Scale Factor [Var_SF]: 0 {Read Granted/Write Blocked}
+Active Energy Scale Factor [TotWh_SF]: 3 {Read Granted/Write Blocked}
+Reactive Energy Scale Factor [TotVarh_SF]: 3 {Read Granted/Write Blocked}
+Temperature Scale Factor [Tmp_SF]: -1 {Read Granted/Write Blocked}
+Manufacturer Alarm Info [MnAlrmInfo]: Sample Mfr Alarm {Read Granted/Write Blocked}
+--------------------------------------------------
+Model: DERCapacity
+
+DER Capacity Model ID [ID]: 702 {Read Granted/Write Blocked}
+DER Capacity Model Length [L]: 50 {Read Granted/Write Blocked}
+Active Power Max Rating [WMaxRtg]: 10000 {Read Granted/Write Blocked}
+Active Power (Over-Excited) Rating [WOvrExtRtg]: 10000 {Read Granted/Write Blocked}
+Specified Over-Excited PF [WOvrExtRtgPF]: 1.0 {Read Granted/Write Blocked}
+Active Power (Under-Excited) Rating [WUndExtRtg]: 10000 {Read Granted/Write Blocked}
+Specified Under-Excited PF [WUndExtRtgPF]: 1.0 {Read Granted/Write Blocked}
+Apparent Power Max Rating [VAMaxRtg]: 11000 {Read Granted/Write Blocked}
+Reactive Power Injected Rating [VarMaxInjRtg]: 2500 {Read Granted/Write Blocked}
+Reactive Power Absorbed Rating [VarMaxAbsRtg]: 0 {Read Granted/Write Blocked}
+Charge Rate Max Rating [WChaRteMaxRtg]: 0 {Read Granted/Write Blocked}
+Discharge Rate Max Rating [WDisChaRteMaxRtg]: 0 {Read Granted/Write Blocked}
+Charge Rate Max VA Rating [VAChaRteMaxRtg]: 0 {Read Granted/Write Blocked}
+Discharge Rate Max VA Rating [VADisChaRteMaxRtg]: 0 {Read Granted/Write Blocked}
+AC Voltage Nominal Rating [VNomRtg]: 240 {Read Granted/Write Blocked}
+AC Voltage Max Rating [VMaxRtg]: 270 {Read Granted/Write Blocked}
+AC Voltage Min Rating [VMinRtg]: 210 {Read Granted/Write Blocked}
+AC Current Max Rating [AMaxRtg]: 50 {Read Granted/Write Blocked}
+PF Over-Excited Rating [PFOvrExtRtg]: 0.85 {Read Granted/Write Blocked}
+PF Under-Excited Rating [PFUndExtRtg]: 0.85 {Read Granted/Write Blocked}
+Reactive Susceptance [ReactSusceptRtg]: 0.5 {Read Granted/Write Blocked}
+Normal Operating Category [NorOpCatRtg]: 2 [None] {Read Granted/Write Blocked}
+Abnormal Operating Category [AbnOpCatRtg]: 3 [None] {Read Granted/Write Blocked}
+Supported Control Modes [CtrlModes]: 32767 [None] {Read Granted/Write Blocked}
+Intentional Island Categories [IntIslandCatRtg]: 14 [None] {Read Granted/Write Blocked}
+Active Power Max Setting [WMax]: 10000 {Read Granted/Write Blocked}
+Active Power (Over-Excited) Setting [WMaxOvrExt]: None {Read Granted/Write Blocked}
+Specified Over-Excited PF [WOvrExtPF]: None {Read Granted/Write Blocked}
+Active Power (Under-Excited) Setting [WMaxUndExt]: None {Read Granted/Write Blocked}
+Specified Under-Excited PF [WUndExtPF]: None {Read Granted/Write Blocked}
+Apparent Power Max Setting [VAMax]: 10000 {Read Granted/Write Blocked}
+Reactive Power Injected Setting [VarMaxInj]: 4400 {Read Granted/Write Blocked}
+Reactive Power Absorbed Setting [VarMaxAbs]: 4400 {Read Granted/Write Blocked}
+Charge Rate Max Setting [WChaRteMax]: 8000 {Read Granted/Write Blocked}
+Discharge Rate Max Setting [WDisChaRteMax]: 8000 {Read Granted/Write Blocked}
+Charge Rate Max VA Setting [VAChaRteMax]: 8000 {Read Granted/Write Blocked}
+Discharge Rate Max VA Setting [VADisChaRteMax]: 8000 {Read Granted/Write Blocked}
+Nominal AC Voltage Setting [VNom]: None {Read Granted/Write Blocked}
+AC Voltage Max Setting [VMax]: 270 {Read Granted/Write Blocked}
+AC Voltage Min Setting [VMin]: 210 {Read Granted/Write Blocked}
+AC Current Max Setting [AMax]: None {Read Granted/Write Blocked}
+PF Over-Excited Setting [PFOvrExt]: None {Read Granted/Write Blocked}
+PF Under-Excited Setting [PFUndExt]: None {Read Granted/Write Blocked}
+Intentional Island Categories [IntIslandCat]: 2 [None] {Read Granted/Write Blocked}
+Active Power Scale Factor [W_SF]: 0 {Read Granted/Write Blocked}
+Power Factor Scale Factor [PF_SF]: -3 {Read Granted/Write Blocked}
+Apparent Power Scale Factor [VA_SF]: 0 {Read Granted/Write Blocked}
+Reactive Power Scale Factor [Var_SF]: 0 {Read Granted/Write Blocked}
+Voltage Scale Factor [V_SF]: 0 {Read Granted/Write Blocked}
+Current Scale Factor [A_SF]: 0 {Read Granted/Write Blocked}
+Susceptance Scale Factor [S_SF]: 0 {Read Granted/Write Blocked}
+--------------------------------------------------
+Model: DEREnterService
+
+Enter Service ID [ID]: 703 {Read/Write Blocked}
+Enter Service Length [L]: 17 {Read/Write Blocked}
+Permit Enter Service [ES]: 1 [None] {Read Granted/Write Blocked}
+Enter Service Voltage High [ESVHi]: 1.05 {Read/Write Blocked}
+Enter Service Voltage Low [ESVLo]: 0.917 {Read/Write Blocked}
+Enter Service Frequency High [ESHzHi]: 60.1 {Read/Write Blocked}
+Enter Service Frequency Low [ESHzLo]: 59.5 {Read/Write Blocked}
+Enter Service Delay Time [ESDlyTms]: 300 {Read/Write Blocked}
+Enter Service Random Delay [ESRndTms]: 100 {Read/Write Blocked}
+Enter Service Ramp Time [ESRmpTms]: 60 {Read/Write Blocked}
+Enter Service Delay Remaining [ESDlyRemTms]: None {Read/Write Blocked}
+Voltage Scale Factor [V_SF]: -3 {Read Granted/Write Blocked}
+Frequency Scale Factor [Hz_SF]: -2 {Read Granted/Write Blocked}
+--------------------------------------------------
+Model: DERCtlAC
+
+Model ID [ID]: 704 {Read/Write Blocked}
+Model Length [L]: 65 {Read/Write Blocked}
+Power Factor Enable (W Inj) Enable [PFWInjEna]: 0 [Disabled] {Read/Write Blocked}
+Power Factor Reversion Enable (W Inj) [PFWInjEnaRvrt]: None {Read/Write Blocked}
+PF Reversion Time (W Inj) [PFWInjRvrtTms]: 10 {Read/Write Blocked}
+PF Reversion Time Rem (W Inj) [PFWInjRvrtRem]: None {Read/Write Blocked}
+Power Factor Enable (W Abs) Enable [PFWAbsEna]: 0 [Disabled] {Read/Write Blocked}
+Power Factor Reversion Enable (W Abs) [PFWAbsEnaRvrt]: None {Read/Write Blocked}
+PF Reversion Time (W Abs) [PFWAbsRvrtTms]: 100 {Read/Write Blocked}
+PF Reversion Time Rem (W Abs) [PFWAbsRvrtRem]: None {Read/Write Blocked}
+Limit Max Power Pct Enable [WMaxLimPctEna]: 0 [Disabled] {Read/Write Blocked}
+Limit Max Power Pct Setpoint [WMaxLimPct]: 1000 {Read/Write Blocked}
+Reversion Limit Max Power Pct [WMaxLimPctRvrt]: 100 {Read/Write Blocked}
+Reversion Limit Max Power Pct Enable [WMaxLimPctEnaRvrt]: None {Read/Write Blocked}
+Limit Max Power Pct Reversion Time [WMaxLimPctRvrtTms]: 10 {Read/Write Blocked}
+Limit Max Power Pct Rev Time Rem [WMaxLimPctRvrtRem]: None {Read/Write Blocked}
+Set Active Power Enable [WSetEna]: 0 [Disabled] {Read/Write Blocked}
+Set Active Power Mode [WSetMod]: 1 [Active Power As Watts] {Read/Write Blocked}
+Active Power Setpoint (W) [WSet]: 5000 {Read/Write Blocked}
+Reversion Active Power (W) [WSetRvrt]: 4000 {Read/Write Blocked}
+Active Power Setpoint (Pct) [WSetPct]: 100 {Read/Write Blocked}
+Reversion Active Power (Pct) [WSetPctRvrt]: 100 {Read/Write Blocked}
+Reversion Active Power Enable [WSetEnaRvrt]: None {Read/Write Blocked}
+Active Power Reversion Time [WSetRvrtTms]: 10 {Read/Write Blocked}
+Active Power Rev Time Rem [WSetRvrtRem]: None {Read/Write Blocked}
+Set Reactive Power Enable [VarSetEna]: 0 [Disabled] {Read/Write Blocked}
+Set Reactive Power Mode [VarSetMod]: None {Read/Write Blocked}
+Reactive Power Priority [VarSetPri]: None {Read/Write Blocked}
+Reactive Power Setpoint (Vars) [VarSet]: None {Read/Write Blocked}
+Reversion Reactive Power (Vars) [VarSetRvrt]: None {Read/Write Blocked}
+Reactive Power Setpoint (Pct) [VarSetPct]: None {Read/Write Blocked}
+Reversion Reactive Power (Pct) [VarSetPctRvrt]: None {Read/Write Blocked}
+Reversion Reactive Power Enable [VarSetEnaRvrt]: None {Read/Write Blocked}
+Reactive Power Reversion Time [VarSetRvrtTms]: None {Read/Write Blocked}
+Reactive Power Rev Time Rem [VarSetRvrtRem]: None {Read/Write Blocked}
+Normal Ramp Rate [WRmp]: None {Read/Write Blocked}
+Normal Ramp Rate Reference [WRmpRef]: None {Read/Write Blocked}
+Reactive Power Ramp Rate [VarRmp]: None {Read/Write Blocked}
+Anti-Islanding Enable [AntiIslEna]: None {Read/Write Blocked}
+Power Factor Scale Factor [PF_SF]: -3 {Read Granted/Write Blocked}
+Limit Max Power Scale Factor [WMaxLimPct_SF]: None {Read Granted/Write Blocked}
+Active Power Scale Factor [WSet_SF]: 0 {Read Granted/Write Blocked}
+Active Power Pct Scale Factor [WSetPct_SF]: 0 {Read Granted/Write Blocked}
+Reactive Power Scale Factor [VarSet_SF]: 0 {Read Granted/Write Blocked}
+Reactive Power Pct Scale Factor [VarSetPct_SF]: 0 {Read Granted/Write Blocked}
+	--------------------------------------------------
+	Group: PFWInj
+		Power Factor (W Inj)  [PF]: 0.9500000000000001 {Read/Write Blocked}
+		Power Factor Excitation (W Inj) [Ext]: 1 [Under-Excited] {Read/Write Blocked}
+	--------------------------------------------------
+	Group: PFWInjRvrt
+		Reversion Power Factor (W Inj)  [PF]: 0.92 {Read/Write Blocked}
+		Reversion PF Excitation (W Inj) [Ext]: 0 [Over-Excited] {Read/Write Blocked}
+	--------------------------------------------------
+	Group: PFWAbs
+		Power Factor (W Abs)  [PF]: 0.085 {Read/Write Blocked}
+		Power Factor Excitation (W Abs) [Ext]: 1 [Under-Excited] {Read/Write Blocked}
+	--------------------------------------------------
+	Group: PFWAbsRvrt
+		Reversion Power Factor (W Abs)  [PF]: 0.085 {Read/Write Blocked}
+		Reversion PF Excitation (W Abs) [Ext]: 0 [Over-Excited] {Read/Write Blocked}
+--------------------------------------------------
+Model: DERVoltVar
+
+Model ID [ID]: 705 {Read/Write Blocked}
+Model Length [L]: 67 {Read/Write Blocked}
+Module Enable [Ena]: 1 [Enabled] {Read/Write Blocked}
+Adopt Curve Request [AdptCrvReq]: 0 {Read/Write Blocked}
+Adopt Curve Result [AdptCrvRslt]: 1 [Update Complete] {Read/Write Blocked}
+Number Of Points [NPt]: 4 {Read/Write Blocked}
+Stored Curve Count [NCrv]: 3 {Read/Write Blocked}
+Reversion Timeout [RvrtTms]: 0 {Read/Write Blocked}
+Reversion Time Remaining [RvrtRem]: 0 {Read/Write Blocked}
+Reversion Curve [RvrtCrv]: 0 {Read/Write Blocked}
+Voltage Scale Factor [V_SF]: -2 {Read Granted/Write Blocked}
+Var Scale Factor [DeptRef_SF]: -2 {Read Granted/Write Blocked}
+Open-Loop Scale Factor [RspTms_SF]: -2 {Read Granted/Write Blocked}
+	--------------------------------------------------
+	Group: Crv (#1)
+		Active Points [ActPt]: 4 {Read/Write Blocked}
+		Dependent Reference [DeptRef]: 1 [Percent Max Vars] {Read/Write Blocked}
+		Pri [Pri]: 1 [Reactive Power Priority] {Read/Write Blocked}
+		Vref Adjustment [VRef]: 0.01 {Read/Write Blocked}
+		Current Autonomous Vref [VRefAuto]: 0.0 {Read/Write Blocked}
+		Autonomous Vref Enable [VRefAutoEna]: None {Read/Write Blocked}
+		Auto Vref Time Constant [VRefAutoTms]: None {Read/Write Blocked}
+		Open Loop Response Time [RspTms]: 0.06 {Read/Write Blocked}
+		Curve Access [ReadOnly]: 1 [Read-Only Access] {Read/Write Blocked}
+		--------------------------------------------------
+		Group: Pt (#1)
+			Voltage Point [V]: 92.0 {Read/Write Blocked}
+			Reactive Power Point [Var]: 30.0 {Read/Write Blocked}
+		--------------------------------------------------
+		Group: Pt (#2)
+			Voltage Point [V]: 96.7 {Read/Write Blocked}
+			Reactive Power Point [Var]: 0.0 {Read/Write Blocked}
+		--------------------------------------------------
+		Group: Pt (#3)
+			Voltage Point [V]: 103.0 {Read/Write Blocked}
+			Reactive Power Point [Var]: 0.0 {Read/Write Blocked}
+		--------------------------------------------------
+		Group: Pt (#4)
+			Voltage Point [V]: 107.0 {Read/Write Blocked}
+			Reactive Power Point [Var]: -30.0 {Read/Write Blocked}
+	--------------------------------------------------
+	Group: Crv (#2)
+		Active Points [ActPt]: 4 {Read/Write Blocked}
+		Dependent Reference [DeptRef]: 1 [Percent Max Vars] {Read/Write Blocked}
+		Pri [Pri]: 1 [Reactive Power Priority] {Read/Write Blocked}
+		Vref Adjustment [VRef]: 0.01 {Read/Write Blocked}
+		Current Autonomous Vref [VRefAuto]: 0.0 {Read/Write Blocked}
+		Autonomous Vref Enable [VRefAutoEna]: None {Read/Write Blocked}
+		Auto Vref Time Constant [VRefAutoTms]: None {Read/Write Blocked}
+		Open Loop Response Time [RspTms]: 0.06 {Read/Write Blocked}
+		Curve Access [ReadOnly]: 0 [Read-Write Access] {Read/Write Blocked}
+		--------------------------------------------------
+		Group: Pt (#1)
+			Voltage Point [V]: 93.0 {Read/Write Blocked}
+			Reactive Power Point [Var]: 30.0 {Read/Write Blocked}
+		--------------------------------------------------
+		Group: Pt (#2)
+			Voltage Point [V]: 95.7 {Read/Write Blocked}
+			Reactive Power Point [Var]: 0.0 {Read/Write Blocked}
+		--------------------------------------------------
+		Group: Pt (#3)
+			Voltage Point [V]: 102.0 {Read/Write Blocked}
+			Reactive Power Point [Var]: 0.0 {Read/Write Blocked}
+		--------------------------------------------------
+		Group: Pt (#4)
+			Voltage Point [V]: 106.0 {Read/Write Blocked}
+			Reactive Power Point [Var]: -40.0 {Read/Write Blocked}
+	--------------------------------------------------
+	Group: Crv (#3)
+		Active Points [ActPt]: 4 {Read/Write Blocked}
+		Dependent Reference [DeptRef]: 1 [Percent Max Vars] {Read/Write Blocked}
+		Pri [Pri]: 1 [Reactive Power Priority] {Read/Write Blocked}
+		Vref Adjustment [VRef]: 0.01 {Read/Write Blocked}
+		Current Autonomous Vref [VRefAuto]: 0.0 {Read/Write Blocked}
+		Autonomous Vref Enable [VRefAutoEna]: None {Read/Write Blocked}
+		Auto Vref Time Constant [VRefAutoTms]: None {Read/Write Blocked}
+		Open Loop Response Time [RspTms]: 0.06 {Read/Write Blocked}
+		Curve Access [ReadOnly]: 0 [Read-Write Access] {Read/Write Blocked}
+		--------------------------------------------------
+		Group: Pt (#1)
+			Voltage Point [V]: 94.0 {Read/Write Blocked}
+			Reactive Power Point [Var]: 20.0 {Read/Write Blocked}
+		--------------------------------------------------
+		Group: Pt (#2)
+			Voltage Point [V]: 95.7 {Read/Write Blocked}
+			Reactive Power Point [Var]: 0.0 {Read/Write Blocked}
+		--------------------------------------------------
+		Group: Pt (#3)
+			Voltage Point [V]: 105.0 {Read/Write Blocked}
+			Reactive Power Point [Var]: 0.0 {Read/Write Blocked}
+		--------------------------------------------------
+		Group: Pt (#4)
+			Voltage Point [V]: 108.0 {Read/Write Blocked}
+			Reactive Power Point [Var]: -20.0 {Read/Write Blocked}
+--------------------------------------------------
+Model: DERVoltWatt
+
+Model ID [ID]: 706 {Read/Write Blocked}
+Model Length [L]: 31 {Read/Write Blocked}
+Module Enable [Ena]: 0 [Disabled] {Read/Write Blocked}
+Adopt Curve Request [AdptCrvReq]: 0 {Read/Write Blocked}
+Adopt Curve Result [AdptCrvRslt]: 1 [Update Complete] {Read/Write Blocked}
+Number Of Points [NPt]: 2 {Read/Write Blocked}
+Stored Curve Count [NCrv]: 2 {Read/Write Blocked}
+Reversion Timeout [RvrtTms]: None {Read/Write Blocked}
+Reversion Time Remaining [RvrtRem]: None {Read/Write Blocked}
+Reversion Curve [RvrtCrv]: None {Read/Write Blocked}
+Voltage Scale Factor [V_SF]: 0 {Read Granted/Write Blocked}
+Watt  Scale Factor [DeptRef_SF]: 0 {Read Granted/Write Blocked}
+Open-Loop Scale Factor [RspTms_SF]: -1 {Read Granted/Write Blocked}
+	--------------------------------------------------
+	Group: Crv (#1)
+		Active Points [ActPt]: 2 {Read/Write Blocked}
+		Dependent Reference [DeptRef]: 1 [None] {Read/Write Blocked}
+		Open Loop Response Time [RspTms]: 1.0 {Read/Write Blocked}
+		Curve Access [ReadOnly]: 1 [Read-Only Access] {Read/Write Blocked}
+		--------------------------------------------------
+		Group: Pt (#1)
+			Voltage Point [V]: 106 {Read/Write Blocked}
+			Dependent Reference [W]: 100 {Read/Write Blocked}
+		--------------------------------------------------
+		Group: Pt (#2)
+			Voltage Point [V]: 110 {Read/Write Blocked}
+			Dependent Reference [W]: 0 {Read/Write Blocked}
+	--------------------------------------------------
+	Group: Crv (#2)
+		Active Points [ActPt]: 2 {Read/Write Blocked}
+		Dependent Reference [DeptRef]: 1 [None] {Read/Write Blocked}
+		Open Loop Response Time [RspTms]: 0.5 {Read/Write Blocked}
+		Curve Access [ReadOnly]: 0 [Read-Write Access] {Read/Write Blocked}
+		--------------------------------------------------
+		Group: Pt (#1)
+			Voltage Point [V]: 105 {Read/Write Blocked}
+			Dependent Reference [W]: 100 {Read/Write Blocked}
+		--------------------------------------------------
+		Group: Pt (#2)
+			Voltage Point [V]: 109 {Read/Write Blocked}
+			Dependent Reference [W]: 0 {Read/Write Blocked}
+--------------------------------------------------
+Model: DERTripLV
+
+DER Trip LV Model ID [ID]: 707 {Read/Write Blocked}
+DER Trip LV Model Length [L]: 38 {Read/Write Blocked}
+DER Trip LV Module Enable [Ena]: 1 [Enabled] {Read/Write Blocked}
+Adopt Curve Request [AdptCrvReq]: None {Read/Write Blocked}
+Adopt Curve Result [AdptCrvRslt]: 1 [Update Complete] {Read/Write Blocked}
+Number Of Points [NPt]: 3 {Read/Write Blocked}
+Stored Curve Count [NCrvSet]: 1 {Read/Write Blocked}
+Voltage Scale Factor [V_SF]: -2 {Read Granted/Write Blocked}
+Time Point Scale Factor [Tms_SF]: 0 {Read Granted/Write Blocked}
+	--------------------------------------------------
+	Group: Crv (#1)
+		Curve Access [ReadOnly]: None {Read/Write Blocked}
+		--------------------------------------------------
+		Group: MustTrip
+			Number Of Active Points [ActPt]: 1 {Read/Write Blocked}
+			--------------------------------------------------
+			Group: Pt (#1)
+				Voltage Point [V]: 50.0 {Read/Write Blocked}
+				Time Point [Tms]: 5 {Read/Write Blocked}
+			--------------------------------------------------
+			Group: Pt (#2)
+				Voltage Point [V]: 50.0 {Read/Write Blocked}
+				Time Point [Tms]: 5 {Read/Write Blocked}
+			--------------------------------------------------
+			Group: Pt (#3)
+				Voltage Point [V]: 50.0 {Read/Write Blocked}
+				Time Point [Tms]: 5 {Read/Write Blocked}
+		--------------------------------------------------
+		Group: MayTrip
+			Number Of Active Points [ActPt]: 1 {Read/Write Blocked}
+			--------------------------------------------------
+			Group: Pt (#1)
+				Voltage Point [V]: 70.0 {Read/Write Blocked}
+				Time Point [Tms]: 5 {Read/Write Blocked}
+			--------------------------------------------------
+			Group: Pt (#2)
+				Voltage Point [V]: 50.0 {Read/Write Blocked}
+				Time Point [Tms]: 5 {Read/Write Blocked}
+			--------------------------------------------------
+			Group: Pt (#3)
+				Voltage Point [V]: 50.0 {Read/Write Blocked}
+				Time Point [Tms]: 5 {Read/Write Blocked}
+		--------------------------------------------------
+		Group: MomCess
+			Number Of Active Points [ActPt]: 1 {Read/Write Blocked}
+			--------------------------------------------------
+			Group: Pt (#1)
+				Voltage Point [V]: 60.0 {Read/Write Blocked}
+				Time Point [Tms]: 5 {Read/Write Blocked}
+			--------------------------------------------------
+			Group: Pt (#2)
+				Voltage Point [V]: 50.0 {Read/Write Blocked}
+				Time Point [Tms]: 5 {Read/Write Blocked}
+			--------------------------------------------------
+			Group: Pt (#3)
+				Voltage Point [V]: 50.0 {Read/Write Blocked}
+				Time Point [Tms]: 5 {Read/Write Blocked}
+--------------------------------------------------
+Model: DERTripHV
+
+DER Trip HV Model ID [ID]: 708 {Read/Write Blocked}
+DER Trip HV Model Length [L]: 38 {Read/Write Blocked}
+DER Trip HV Module Enable [Ena]: 1 [Enabled] {Read/Write Blocked}
+Adopt Curve Request [AdptCrvReq]: None {Read/Write Blocked}
+Adopt Curve Result [AdptCrvRslt]: 1 [Update Complete] {Read/Write Blocked}
+Number Of Points [NPt]: 3 {Read/Write Blocked}
+Stored Curve Count [NCrvSet]: 1 {Read/Write Blocked}
+Voltage Scale Factor [V_SF]: -2 {Read Granted/Write Blocked}
+Time Point Scale Factor [Tms_SF]: 0 {Read Granted/Write Blocked}
+	--------------------------------------------------
+	Group: Crv (#1)
+		Curve Access [ReadOnly]: None {Read/Write Blocked}
+		--------------------------------------------------
+		Group: MustTrip
+			Number Of Active Points [ActPt]: 1 {Read/Write Blocked}
+			--------------------------------------------------
+			Group: Pt (#1)
+				Voltage Point [V]: 120.0 {Read/Write Blocked}
+				Time Point [Tms]: 5 {Read/Write Blocked}
+			--------------------------------------------------
+			Group: Pt (#2)
+				Voltage Point [V]: 50.0 {Read/Write Blocked}
+				Time Point [Tms]: 5 {Read/Write Blocked}
+			--------------------------------------------------
+			Group: Pt (#3)
+				Voltage Point [V]: 50.0 {Read/Write Blocked}
+				Time Point [Tms]: 5 {Read/Write Blocked}
+		--------------------------------------------------
+		Group: MayTrip
+			Number Of Active Points [ActPt]: 1 {Read/Write Blocked}
+			--------------------------------------------------
+			Group: Pt (#1)
+				Voltage Point [V]: 100.0 {Read/Write Blocked}
+				Time Point [Tms]: 5 {Read/Write Blocked}
+			--------------------------------------------------
+			Group: Pt (#2)
+				Voltage Point [V]: 50.0 {Read/Write Blocked}
+				Time Point [Tms]: 5 {Read/Write Blocked}
+			--------------------------------------------------
+			Group: Pt (#3)
+				Voltage Point [V]: 50.0 {Read/Write Blocked}
+				Time Point [Tms]: 5 {Read/Write Blocked}
+		--------------------------------------------------
+		Group: MomCess
+			Number Of Active Points [ActPt]: 1 {Read/Write Blocked}
+			--------------------------------------------------
+			Group: Pt (#1)
+				Voltage Point [V]: 100.0 {Read/Write Blocked}
+				Time Point [Tms]: 5 {Read/Write Blocked}
+			--------------------------------------------------
+			Group: Pt (#2)
+				Voltage Point [V]: 50.0 {Read/Write Blocked}
+				Time Point [Tms]: 5 {Read/Write Blocked}
+			--------------------------------------------------
+			Group: Pt (#3)
+				Voltage Point [V]: 50.0 {Read/Write Blocked}
+				Time Point [Tms]: 5 {Read/Write Blocked}
+--------------------------------------------------
+Model: DERTripLF
+
+DER Trip LF Model ID [ID]: 709 {Read/Write Blocked}
+DER Trip LF Model Length [L]: 35 {Read/Write Blocked}
+DER Trip LF Module Enable [Ena]: 1 [Enabled] {Read/Write Blocked}
+Adopt Curve Request [AdptCrvReq]: None {Read/Write Blocked}
+Adopt Curve Result [AdptCrvRslt]: 1 [Update Complete] {Read/Write Blocked}
+Number Of Points [NPt]: 2 {Read/Write Blocked}
+Stored Curve Count [NCrvSet]: 1 {Read/Write Blocked}
+Frequency Scale Factor [Hz_SF]: -3 {Read Granted/Write Blocked}
+Time Point Scale Factor [Tms_SF]: -2 {Read Granted/Write Blocked}
+	--------------------------------------------------
+	Group: Crv (#1)
+		Curve Access [ReadOnly]: None {Read/Write Blocked}
+		--------------------------------------------------
+		Group: MustTrip
+			Number Of Active Points [ActPt]: 1 {Read/Write Blocked}
+			--------------------------------------------------
+			Group: Pt (#1)
+				Frequency Point [Hz]: 53.0 {Read/Write Blocked}
+				Time Point [Tms]: 0.05 {Read/Write Blocked}
+			--------------------------------------------------
+			Group: Pt (#2)
+				Frequency Point [Hz]: 53.0 {Read/Write Blocked}
+				Time Point [Tms]: 0.05 {Read/Write Blocked}
+		--------------------------------------------------
+		Group: MayTrip
+			Number Of Active Points [ActPt]: 1 {Read/Write Blocked}
+			--------------------------------------------------
+			Group: Pt (#1)
+				Frequency Point [Hz]: 58.5 {Read/Write Blocked}
+				Time Point [Tms]: 0.05 {Read/Write Blocked}
+			--------------------------------------------------
+			Group: Pt (#2)
+				Frequency Point [Hz]: 53.0 {Read/Write Blocked}
+				Time Point [Tms]: 0.05 {Read/Write Blocked}
+		--------------------------------------------------
+		Group: MomCess
+			Number Of Active Points [ActPt]: 1 {Read/Write Blocked}
+			--------------------------------------------------
+			Group: Pt (#1)
+				Frequency Point [Hz]: 58.5 {Read/Write Blocked}
+				Time Point [Tms]: 0.05 {Read/Write Blocked}
+			--------------------------------------------------
+			Group: Pt (#2)
+				Frequency Point [Hz]: 53.0 {Read/Write Blocked}
+				Time Point [Tms]: 0.05 {Read/Write Blocked}
+--------------------------------------------------
+Model: DERTripHF
+
+DER Trip HFModel ID [ID]: 710 {Read/Write Blocked}
+DER Trip HFModel Length [L]: 35 {Read/Write Blocked}
+DER Trip HFModule Enable [Ena]: None {Read/Write Blocked}
+Adopt Curve Request [AdptCrvReq]: None {Read/Write Blocked}
+Adopt Curve Result [AdptCrvRslt]: 1 [Update Complete] {Read/Write Blocked}
+Number Of Points [NPt]: 2 {Read/Write Blocked}
+Stored Curve Count [NCrvSet]: 1 {Read/Write Blocked}
+Frequency Scale Factor [Hz_SF]: -3 {Read Granted/Write Blocked}
+Time Point Scale Factor [Tms_SF]: -2 {Read Granted/Write Blocked}
+	--------------------------------------------------
+	Group: Crv (#1)
+		Curve Access [ReadOnly]: None {Read/Write Blocked}
+		--------------------------------------------------
+		Group: MustTrip
+			Number Of Active Points [ActPt]: 1 {Read/Write Blocked}
+			--------------------------------------------------
+			Group: Pt (#1)
+				Frequency Point [Hz]: 65.0 {Read/Write Blocked}
+				Time Point [Tms]: 0.05 {Read/Write Blocked}
+			--------------------------------------------------
+			Group: Pt (#2)
+				Frequency Point [Hz]: 53.0 {Read/Write Blocked}
+				Time Point [Tms]: 0.05 {Read/Write Blocked}
+		--------------------------------------------------
+		Group: MayTrip
+			Number Of Active Points [ActPt]: 1 {Read/Write Blocked}
+			--------------------------------------------------
+			Group: Pt (#1)
+				Frequency Point [Hz]: 60.5 {Read/Write Blocked}
+				Time Point [Tms]: 0.05 {Read/Write Blocked}
+			--------------------------------------------------
+			Group: Pt (#2)
+				Frequency Point [Hz]: 53.0 {Read/Write Blocked}
+				Time Point [Tms]: 0.05 {Read/Write Blocked}
+		--------------------------------------------------
+		Group: MomCess
+			Number Of Active Points [ActPt]: 1 {Read/Write Blocked}
+			--------------------------------------------------
+			Group: Pt (#1)
+				Frequency Point [Hz]: 60.5 {Read/Write Blocked}
+				Time Point [Tms]: 0.05 {Read/Write Blocked}
+			--------------------------------------------------
+			Group: Pt (#2)
+				Frequency Point [Hz]: 53.0 {Read/Write Blocked}
+				Time Point [Tms]: 0.05 {Read/Write Blocked}
+--------------------------------------------------
+Model: DERFreqDroop
+
+DER Frequency Droop ID [ID]: 711 {Read/Write Blocked}
+DER Frequency Droop Length [L]: 21 {Read/Write Blocked}
+DER Frequency Droop Enable [Ena]: None {Read/Write Blocked}
+Set Active Control Request [AdptCtlReq]: None {Read/Write Blocked}
+Set Active Control Result [AdptCtlRslt]: 1 [Update Complete] {Read/Write Blocked}
+Stored Curve Count [NCtl]: 1 {Read/Write Blocked}
+Reversion Timeout [RvrtTms]: 0 {Read/Write Blocked}
+Reversion Time Left [RvrtRem]: 0 {Read/Write Blocked}
+Reversion Control [RvrtCtl]: None {Read/Write Blocked}
+Deadband Scale Factor [Db_SF]: -3 {Read Granted/Write Blocked}
+Frequency Change Scale Factor [K_SF]: -2 {Read Granted/Write Blocked}
+Open-Loop Scale Factor [RspTms_SF]: 0 {Read Granted/Write Blocked}
+	--------------------------------------------------
+	Group: Ctl (#1)
+		Over-Frequency Deadband [DbOf]: 60.03 {Read/Write Blocked}
+		Under-Frequency Deadband [DbUf]: 59.97 {Read/Write Blocked}
+		Over-Frequency Change Ratio [KOf]: 0.4 {Read/Write Blocked}
+		Under-Frequency Change Ratio [KUf]: 0.4 {Read/Write Blocked}
+		Open-Loop Response Time [RspTms]: 600 {Read/Write Blocked}
+		Control Access [ReadOnly]: None {Read/Write Blocked}
+--------------------------------------------------
+Model: DERWattVar
+
+Model ID [ID]: 712 {Read/Write Blocked}
+Model Length [L]: 28 {Read/Write Blocked}
+Module Enable [Ena]: 0 [Disabled] {Read/Write Blocked}
+Set Active Curve Request [AdptCrvReq]: None {Read/Write Blocked}
+Set Active Curve Result [AdptCrvRslt]: 1 [Update Complete] {Read/Write Blocked}
+Number Of Points [NPt]: 6 {Read/Write Blocked}
+Stored Curve Count [NCrv]: 1 {Read/Write Blocked}
+Reversion Timeout [RvrtTms]: 0 {Read/Write Blocked}
+Reversion Time Left [RvrtRem]: 0 {Read/Write Blocked}
+Reversion Curve [RvrtCrv]: 0 {Read/Write Blocked}
+Active Power Scale Factor [W_SF]: -2 {Read Granted/Write Blocked}
+Var Scale Factor [DeptRef_SF]: -2 {Read Granted/Write Blocked}
+	--------------------------------------------------
+	Group: Crv (#1)
+		Active Points [ActPt]: 6 {Read/Write Blocked}
+		Dependent Reference [DeptRef]: 1 [Percent Max Vars] {Read/Write Blocked}
+		Pri [Pri]: None {Read/Write Blocked}
+		Curve Access [ReadOnly]: None {Read/Write Blocked}
+		--------------------------------------------------
+		Group: Pt (#1)
+			Active Power Point [W]: -100.0 {Read/Write Blocked}
+			Reactive Power Point [Var]: 44.0 {Read/Write Blocked}
+		--------------------------------------------------
+		Group: Pt (#2)
+			Active Power Point [W]: -50.0 {Read/Write Blocked}
