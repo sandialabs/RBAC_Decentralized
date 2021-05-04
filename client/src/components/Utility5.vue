@@ -80,8 +80,7 @@
               <button
                       type="button"
                       class="btn btn-danger btn-sm" style='font-size:15px;'
-                      @click="onClickItemRevoke(key, entity.name, entity.address, entity.role);
-                      revokeAlert()">
+                      @click="revokeAlert(key, entity.name, entity.address, entity.role)">
                   Revoke Role
                 </button>
                   <button
@@ -134,12 +133,21 @@ export default {
         text: 'DER Entity is successfuly updated!',
       });
     },
-    revokeAlert() {
-      this.$swal({
-        type: 'success',
-        title: 'Revoke Role Success',
-        text: 'Role is successfuly revoked!',
-      });
+    revokeAlert(key, name, address, role) {
+      if (!(role)) {
+        this.$swal({
+          type: 'error',
+          title: 'Revoke Role Fail',
+          text: 'This entity has no role!',
+        });
+      } else {
+        this.$swal({
+          type: 'success',
+          title: 'Revoke Role Success',
+          text: 'Role is successfuly revoked!',
+        });
+        this.onClickItemRevoke(key, name, address, role);
+      }
     },
     handleInput(e, column) {
       this.content = e.target.innerHTML;
@@ -153,6 +161,7 @@ export default {
     onClickItem(key, oldname, oldaddress, oldrole) {
       if (this.edit_column === 'name') {
         this.content = this.content.trimStart();
+        this.content = this.content.trimEnd();
         const payload = {
           oldName: oldname,
           oldRole: oldrole,
@@ -207,6 +216,7 @@ export default {
               text: 'No Permissions to show.',
             });
           } else {
+            console.log(JSON.stringify(res.data.DERCapacity));
             this.$swal({
               icon: 'info',
               type: 'success',

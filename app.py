@@ -11,7 +11,7 @@ import rbac_generation
 import sys
 import rbac_der_demo_getterv2 as getter
 
-log_file = open("./log.txt","w")
+log_file = open("./log.txt","a")
 sys.stdout = log_file
 
 # Configuration
@@ -162,6 +162,9 @@ def show_perm2():
 
             model = 'DERCapacity'
             perms_string = blockchain.contract.functions.queryPermissions(parent,model).call()
+            perms_string = perms_string.replace('{','')
+            perms_string = perms_string.replace('}','')
+            perms_string = perms_string.replace('"','')
             response_object[model] = perms_string
 
     end = time.time()
@@ -234,7 +237,7 @@ def show_permissions():
 
 @app.route('/download', methods=['POST'])
 def download():
-    f = '/Users/geo_fragkos/Documents/PhD_Documents/Sandia/Documents/der_cyber/rbac_eth_demo/truffle_based/log.txt'
+    f = '/home/george/Desktop/Sandia_RBAC/Decentralized_Ethereum/log.txt'
     return send_file(f,attachment_filename='test.txt',as_attachment=True)
 
 @app.route('/verify_utr', methods=['PUT'])
@@ -2081,8 +2084,8 @@ if __name__ == '__main__':
     t = 30
     time.sleep(t)
     print('Starting app.py ...')
-    #net_id = sys.argv[1]
-    net_id = 1200
+    net_id = sys.argv[1]
+    #net_id = 1200
     blockchain = Blockchain_Connector(net_id, '127.0.0.1', '9545')
     t = 5
     time.sleep(t)
@@ -2309,5 +2312,5 @@ if __name__ == '__main__':
 
     ending = time.time()
     print('Server Initiation Time is: '+ str(ending-starting))
-    app.run()
+    app.run(threaded=True)
 

@@ -235,7 +235,7 @@
     <div class="form-group col-md-3">
       <label for="verify_name">Username</label>
       <input v-model="verify_name" type="text" class="form-control"
-      id="inputEmail4" placeholder="Ex: George">
+      id="inputEmail4" placeholder="Ex: George Fragkos">
     </div>
     <div class="form-group col-md-3">
       <label for="verify_address">Ethereum Address</label>
@@ -609,7 +609,13 @@ export default {
           model: this.perm_model,
           operation: this.perm_operation,
         };
-        const path = `http://localhost:5000/get_entity_info/${payload.username}`;
+        let temp = 'a';
+        if (!(payload.username)) {
+          temp = payload.address;
+        } else {
+          temp = payload.username;
+        }
+        const path = `http://localhost:5000/get_entity_info/${temp}`;
         axios.put(path, payload)
           .then((response) => {
             if (response.data.flag === 'False') {

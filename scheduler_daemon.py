@@ -3,13 +3,13 @@ import subprocess
 import sys
 import time
 import schedule
-netid = 1200
 
+netid = 1200
 
 def start():
     global netid
-    subprocess.call(['/opt/anaconda3/bin/python ./rbac_application.py ' + str(netid)], shell=True)
-    subprocess.Popen(['/opt/anaconda3/bin/python ./app.py ' + str(netid)], shell=True)
+    subprocess.call(['/home/george/anaconda3/bin/python3.8 ./rbac_application.py ' + str(netid)], shell=True)
+    subprocess.Popen(['/home/george/anaconda3/bin/python3.8 ./app.py ' + str(netid)], shell=True)
     time.sleep(300)
     subprocess.Popen(['./client/vue_run.sh'], shell=True)
     print("Web Server is up and running...")
