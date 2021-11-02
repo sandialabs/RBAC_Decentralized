@@ -3,4 +3,4 @@ This is a Decentralized implementation of an RBAC policy in a DER environment. B
 
 ## Demo 
 Please see the video from the SunSpec & DER Cybersecurity Webinar: Centralized vs Decentralized DER RBAC Implementation:
-https://www.youtube.com/watch?v=sEkpl4dVjJk 
+https://sunspec.org/sunspec-cybersecurity-videos/?vimeography_gallery=9&vimeography_video=624863858
